@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 400px;
+  height: 50px;
+}
+.root {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+.NarutoCart {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.cart {
+  width: 300px;
+  height: 370px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 15px;
+  color: white;
+}
+.cart img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
